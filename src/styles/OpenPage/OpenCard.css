@@ -1,0 +1,39 @@
+.open-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.open-card img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.go-again-button {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px;  
+    background-color: #ffffff;
+    color: #ff0000;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-family: 'Pacifico', cursive; 
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.go-again-button:hover {
+    background-color: #4b0000; 
+}

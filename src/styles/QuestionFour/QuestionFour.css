@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.q-page4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+.question-text {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  font-family: 'Pacifico', cursive; 
+}
+
+.q-button {
+  position: absolute;
+  padding: 20px 40px;
+  font-size: 1.5em;
+  background-color: #ff3b3b; 
+  color: white;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.q-button:hover {
+  background-color: #ff6600; 
+}
