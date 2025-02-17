@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/CardPage/ClosedCard.css';
-import cardImage from '../../assets/placeholder1.png';
+import cardImage from '../../assets/placeholder1.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const ClosedCard = () => {

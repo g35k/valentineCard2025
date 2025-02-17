@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../styles/OpenPage/OpenCard.css';
-import cardImage2 from '../../assets/placeholder2.png';
+import cardImage2 from '../../assets/placeholder2.jpg';
 
 const OpenCard = () => {
   const navigate = useNavigate();

@@ -22,7 +22,7 @@
 .arrow-button {
     position: relative;
     top: 20px;
-    right: 20px;
+    right: -375px;
     background-color: red;
     color: white;
     border: none;
